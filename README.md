@@ -1,8 +1,17 @@
-# 💊 Pharma Manufacturing RCA AI Agent
+# Pharma Manufacturing RCA AI Agent
+
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.51.0-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.3.3-lightblue?style=for-the-badge&logo=pandas&logoColor=black)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.3.4-orange?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-3.10.7-yellow?style=for-the-badge&logo=matplotlib&logoColor=black)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-blueviolet?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/priya2208VP/RCA_Agent)
 
 **Pharma Manufacturing RCA AI Agent** is an advanced, user-friendly web application built with **Streamlit** that automates the **Root Cause Analysis (RCA)** of batch processes in pharmaceutical manufacturing. It allows engineers and operations teams to quickly visualize batch statuses, access logs, download detailed RCA reports, and improve operational efficiency.  
- 
- https://rca-agent.streamlit.app/
+
+🔗 [Live Demo](https://rca-agent.streamlit.app/)
+
 ---
 
 ## Table of Contents
@@ -13,14 +22,13 @@
 - [Technologies Used](#technologies-used)  
 - [Installation & Setup](#installation--setup)  
 - [How It Improves Day-to-Day Tasks](#how-it-improves-day-to-day-tasks)  
-- [Screenshots & Metrics](#screenshots--metrics)  
 - [Future Enhancements](#future-enhancements)  
 - [License](#license)  
 
 ---
 
 ## Project Overview
-This tool is designed to **automate the RCA process** for batch production in pharma plants, helping teams detect failed batches, track pipeline issues, and proactively implement preventive measures. The system generates **well-structured RCA reports in Word format** and displays detailed pipeline, source, and app database logs.
+This tool automates the **RCA process** for batch production in pharma plants, helping teams detect failed batches, track pipeline issues, and implement preventive measures. The system generates **well-structured RCA reports in Word format** and displays detailed pipeline, source, and app database logs.
 
 ---
 
@@ -37,8 +45,8 @@ This tool is designed to **automate the RCA process** for batch production in ph
 
 ## UI Components & Interactions
 - **Batch Input Field** – compact text input for entering batch IDs.  
-- **Filters** – select “All,” “Success,” or “Failed” batches beside the input.  
-- **Result Cards** – collapsible, color-coded cards for each batch:  
+- **Filters** – select “All,” “Success,” or “Failed” batches.  
+- **Result Cards** – collapsible, color-coded cards:  
   - **Red**: Failed batches  
   - **Green**: Successful batches  
 - **Tabs inside cards**:
@@ -47,7 +55,6 @@ This tool is designed to **automate the RCA process** for batch production in ph
   3. **App DB** – displays batch data from application DB.  
   4. **Download RCA** – download ready-to-use Word report.  
 
-![Batch Result Cards](docs/result_cards.png)
 
 ---
 
