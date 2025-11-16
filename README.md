@@ -1,0 +1,80 @@
+# 💊 Pharma Manufacturing RCA AI Agent
+
+**Pharma Manufacturing RCA AI Agent** is an advanced, user-friendly web application built with **Streamlit** that automates the **Root Cause Analysis (RCA)** of batch processes in pharmaceutical manufacturing. It allows engineers and operations teams to quickly visualize batch statuses, access logs, download detailed RCA reports, and improve operational efficiency.  
+
+---
+
+## Table of Contents
+- [Project Overview](#project-overview)  
+- [Key Features](#key-features)  
+- [UI Components & Interactions](#ui-components--interactions)  
+- [Use Cases](#use-cases)  
+- [Technologies Used](#technologies-used)  
+- [Installation & Setup](#installation--setup)  
+- [How It Improves Day-to-Day Tasks](#how-it-improves-day-to-day-tasks)  
+- [Screenshots & Metrics](#screenshots--metrics)  
+- [Future Enhancements](#future-enhancements)  
+- [License](#license)  
+
+---
+
+## Project Overview
+This tool is designed to **automate the RCA process** for batch production in pharma plants, helping teams detect failed batches, track pipeline issues, and proactively implement preventive measures. The system generates **well-structured RCA reports in Word format** and displays detailed pipeline, source, and app database logs.
+
+---
+
+## Key Features
+- ✅ **Batch Input & Filters**: Enter single, multiple, or range of batch numbers with status filters (Success/Failed).  
+- ✅ **Dynamic Batch Analysis**: Separate views for successful and failed batches.  
+- ✅ **Interactive Tabs**: View pipeline logs, source DB, app DB, and download RCA reports.  
+- ✅ **Automated RCA Report Generation**: DOCX reports with incident summary, root cause, corrective/preventive actions, and confidence scores.  
+- ✅ **Responsive UI**: Modern card-based design with collapsible sections for clean visualization.  
+- ✅ **Detailed Pipeline Metrics**: Logs include `job_id`, `batch_id`, `status`, `start_time`, `end_time`, and `error`.  
+- ✅ **Multiple Batch Support**: Supports batch ranges like `BATCH-001 to BATCH-005` or comma-separated batches.  
+
+---
+
+## UI Components & Interactions
+- **Batch Input Field** – compact text input for entering batch IDs.  
+- **Filters** – select “All,” “Success,” or “Failed” batches beside the input.  
+- **Result Cards** – collapsible, color-coded cards for each batch:  
+  - **Red**: Failed batches  
+  - **Green**: Successful batches  
+- **Tabs inside cards**:
+  1. **Pipeline Logs** – shows ETL job logs.  
+  2. **Source DB** – displays the batch data from source DB.  
+  3. **App DB** – displays batch data from application DB.  
+  4. **Download RCA** – download ready-to-use Word report.  
+
+![Batch Result Cards](docs/result_cards.png)
+
+---
+
+## Use Cases
+1. **Operations Monitoring** – Track which batches failed and why.  
+2. **Audit & Compliance** – Maintain structured RCA reports for regulatory compliance.  
+3. **ETL Pipeline Verification** – Detect ETL or data pipeline issues quickly.  
+4. **Decision Support** – Helps managers decide preventive actions based on confidence scores and logs.  
+5. **Batch Trend Analysis** – Analyze batch failures over time for predictive maintenance.  
+
+---
+
+## Technologies Used
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python 3.12 |
+| Web Framework | Streamlit 1.51.0 |
+| Data Analysis | Pandas 2.3.3, NumPy 2.3.4 |
+| Report Generation | python-docx 1.2.0 |
+| Visualization | Matplotlib 3.10.7, Seaborn 0.13.2 |
+| Version Control | Git & GitHub |
+| Testing & Mock Data | Custom `mock_retriever` module |
+
+---
+
+## Installation & Setup
+
+1. **Clone the repository**:
+```bash
+git clone https://github.com/priya2208VP/RCA_Agent.git
+cd RCA_Agent

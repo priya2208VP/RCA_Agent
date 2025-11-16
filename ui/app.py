@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2
 import sys, os
 from io import BytesIO
 from datetime import datetime
@@ -251,6 +254,7 @@ if success_batches:
                 mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
             )
         st.markdown("</div>", unsafe_allow_html=True)
+<<<<<<< HEAD
 
 
 
@@ -263,3 +267,5 @@ if success_batches:
 
 
 
+=======
+>>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2

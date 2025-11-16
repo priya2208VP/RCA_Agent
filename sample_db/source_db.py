@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # import sqlite3
 # from faker import Faker
 # import random
@@ -37,6 +38,8 @@
 
 
 
+=======
+>>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2
 import sqlite3
 from faker import Faker
 import random
@@ -71,6 +74,7 @@ c.executemany('INSERT INTO batches VALUES (?,?,?,?,?,?)', sample_data)
 conn.commit()
 conn.close()
 print("Source DB created with sample batches")
+<<<<<<< HEAD
 
 
 
@@ -191,3 +195,5 @@ print("Source DB created with sample batches")
 # conn.close()
 
 # print("Source DB created with new partial empty column simulations.")
+=======
+>>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2
