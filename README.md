@@ -8,6 +8,19 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-blueviolet?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/priya2208VP/RCA_Agent)
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=priya2208VP&theme=radical)](https://github.com/priya2208VP)
+
+---
+
+### 🛠 Tech Used in This Project
+[![Python](https://img.shields.io/badge/Python-3.12-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-MySQL-lightblue?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![YAML](https://img.shields.io/badge/YAML-1.2-orange?style=for-the-badge&logo=yaml&logoColor=white)](https://yaml.org/)
+
+[![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=priya2208VP)](https://github.com/priya2208VP)
+
+---
+
 **Pharma Manufacturing RCA AI Agent** is an advanced, user-friendly web application built with **Streamlit** that automates the **Root Cause Analysis (RCA)** of batch processes in pharmaceutical manufacturing. It allows engineers and operations teams to quickly visualize batch statuses, access logs, download detailed RCA reports, and improve operational efficiency.  
 
 🔗 [Live Demo](https://rca-agent.streamlit.app/)
@@ -21,9 +34,6 @@
 - [Use Cases](#use-cases)  
 - [Technologies Used](#technologies-used)  
 - [Installation & Setup](#installation--setup)  
-- [How It Improves Day-to-Day Tasks](#how-it-improves-day-to-day-tasks)  
-- [Future Enhancements](#future-enhancements)  
-- [License](#license)  
 
 ---
 
@@ -54,7 +64,6 @@ This tool automates the **RCA process** for batch production in pharma plants, h
   2. **Source DB** – displays the batch data from source DB.  
   3. **App DB** – displays batch data from application DB.  
   4. **Download RCA** – download ready-to-use Word report.  
-
 
 ---
 
