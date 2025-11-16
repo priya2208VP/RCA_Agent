@@ -23,7 +23,7 @@ for i in range(1, 21):  # 20 sample batches
         "error": error
     }
     pipeline_logs.append(log_entry)
-<<<<<<< HEAD
+
 
 
 # #new
@@ -78,5 +78,3 @@ for i in range(1, 21):  # 20 sample batches
 
 # # Ensure BATCH-001 (for data quality mismatch) is SUCCESS in logs so the agent proceeds to data quality check
 # # Since BATCH-001 is SUCCESS here, the agent will move to the data quality check where it will find a mismatch
-=======
->>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2

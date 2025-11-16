@@ -43,7 +43,7 @@ def generate_rca(batch_id, source_data, app_data, pipeline_logs):
         }
     }
     return rca_json
-<<<<<<< HEAD
+
 
 
 
@@ -235,5 +235,3 @@ def generate_rca(batch_id, source_data, app_data, pipeline_logs):
 #     }
     
 #     return rca_report
-=======
->>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2

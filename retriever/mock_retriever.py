@@ -89,8 +89,6 @@ def parse_batch_input(batch_input):
         batches.append(batch_input)
 
     return batches
-<<<<<<< HEAD
-
 
 
 
@@ -354,5 +352,3 @@ def parse_batch_input(batch_input):
         
 #     # Return unique valid IDs
 #     return list(set(batch_ids))
-=======
->>>>>>> 28f185771a8b69a047fc99d6c493633ac4f570d2
