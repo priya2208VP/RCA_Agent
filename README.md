@@ -8,8 +8,6 @@
 [![Seaborn](https://img.shields.io/badge/Seaborn-0.13.2-blueviolet?style=for-the-badge&logo=seaborn&logoColor=white)](https://seaborn.pydata.org/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/priya2208VP/RCA_Agent)
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=priya2208VP&theme=radical)](https://github.com/priya2208VP)
-
 ---
 
 ### 🛠 Tech Used in This Project
